@@ -48,6 +48,43 @@
       "releaseDate": "2026-10-08T00:12:33Z"
     },
     {
+      "name": "deckcraft-mcp-server",
+      "displayName": "DeckCraft Bridge",
+      "shortDescription": "Create, edit and convert slide decks with your local DeckCraft",
+      "description": "Create, edit and convert presentations with the DeckCraft app installed on Windows, macOS or Linux: slides with bullets, pictures, charts, tables and notes, themes, transitions, PowerPoint pptx, pdf and slide images. Not affiliated with DeckCraft or Storytold.",
+      "category": "Productivity",
+      "brandColor": "#F26B1D",
+      "version": "1.0.0",
+      "author": "Jhon Supelano",
+      "license": "Apache-2.0",
+      "repository": "https://github.com/jhonsu01/deckcraft-mcp-server",
+      "homepage": "https://github.com/jhonsu01/deckcraft-mcp-server",
+      "platforms": [
+        "win32",
+        "darwin",
+        "linux"
+      ],
+      "tools": [
+        "create_presentation",
+        "edit_presentation",
+        "convert_presentation",
+        "get_presentation_info",
+        "render_slides",
+        "list_deckcraft_catalog",
+        "run_deckcraft_commands",
+        "open_in_deckcraft",
+        "get_deckcraft_status"
+      ],
+      "icon": "icons/deckcraft-mcp-server.png",
+      "mcpb": {
+        "url": "https://github.com/jhonsu01/deckcraft-mcp-server/releases/download/v1.0.0/deckcraft-mcp-server.mcpb",
+        "sha256": "9ca8405f0a4aa522f2e49ccf38faa0fe006ac343d30f7d5785e16ca5e5847645",
+        "size": 276809
+      },
+      "releaseTag": "v1.0.0",
+      "releaseDate": "2026-10-14T14:32:10Z"
+    },
+    {
       "name": "designcraft-mcp-server",
       "displayName": "DesignCraft Bridge",
       "shortDescription": "Page layout, data merge and print-ready PDF with your local DesignCraft",
@@ -162,6 +199,43 @@
       },
       "releaseTag": "v1.1.4",
       "releaseDate": "2026-10-13T23:36:20Z"
+    },
+    {
+      "name": "gridcraft-mcp-server",
+      "displayName": "GridCraft Bridge",
+      "shortDescription": "Build, edit, analyze and convert spreadsheets with your local GridCraft",
+      "description": "Build, edit, read and convert spreadsheets with the GridCraft app installed on Windows, macOS or Linux: sheets with live formulas, tables, formats, conditional formatting, charts and PivotTables, xlsx, csv, json, html and pdf. Not affiliated with GridCraft or Storytold.",
+      "category": "Productivity",
+      "brandColor": "#21A04F",
+      "version": "1.0.0",
+      "author": "Jhon Supelano",
+      "license": "Apache-2.0",
+      "repository": "https://github.com/jhonsu01/gridcraft-mcp-server",
+      "homepage": "https://github.com/jhonsu01/gridcraft-mcp-server",
+      "platforms": [
+        "win32",
+        "darwin",
+        "linux"
+      ],
+      "tools": [
+        "create_workbook",
+        "edit_workbook",
+        "read_workbook",
+        "convert_workbook",
+        "get_workbook_info",
+        "list_gridcraft_catalog",
+        "run_gridcraft_commands",
+        "open_in_gridcraft",
+        "get_gridcraft_status"
+      ],
+      "icon": "icons/gridcraft-mcp-server.png",
+      "mcpb": {
+        "url": "https://github.com/jhonsu01/gridcraft-mcp-server/releases/download/v1.0.0/gridcraft-mcp-server.mcpb",
+        "sha256": "20e7c088f07bef2b8785697c2a85a9cad49152a41cd3ca5c242dc559d615d3ed",
+        "size": 279024
+      },
+      "releaseTag": "v1.0.0",
+      "releaseDate": "2026-10-14T14:32:14Z"
     },
     {
       "name": "lightcraft-mcp-server",
@@ -289,6 +363,44 @@
       "releaseDate": "2026-10-13T23:36:04Z"
     },
     {
+      "name": "soundcraft-mcp-server",
+      "displayName": "SoundCraft Bridge",
+      "shortDescription": "Make songs, mix multitrack audio and process sound with your local SoundCraft",
+      "description": "Make music and audio with the SoundCraft DAW installed on Windows, macOS or Linux: multitrack sessions from audio files and synth or drum notes, effects, busses, mixdowns with loudness, stems, MIDI, audio processing and conversion. Not affiliated with SoundCraft or Storytold.",
+      "category": "Audio",
+      "brandColor": "#1BA6C9",
+      "version": "1.0.0",
+      "author": "Jhon Supelano",
+      "license": "Apache-2.0",
+      "repository": "https://github.com/jhonsu01/soundcraft-mcp-server",
+      "homepage": "https://github.com/jhonsu01/soundcraft-mcp-server",
+      "platforms": [
+        "win32",
+        "darwin",
+        "linux"
+      ],
+      "tools": [
+        "create_session",
+        "edit_session",
+        "export_session",
+        "process_audio",
+        "convert_audio",
+        "get_audio_info",
+        "list_soundcraft_catalog",
+        "run_soundcraft_commands",
+        "open_in_soundcraft",
+        "get_soundcraft_status"
+      ],
+      "icon": "icons/soundcraft-mcp-server.png",
+      "mcpb": {
+        "url": "https://github.com/jhonsu01/soundcraft-mcp-server/releases/download/v1.0.0/soundcraft-mcp-server.mcpb",
+        "sha256": "c0ef32539d11237452b9bad515df28b8cb898a0d8ac8da24650cda8780589a04",
+        "size": 296201
+      },
+      "releaseTag": "v1.0.0",
+      "releaseDate": "2026-10-14T14:32:06Z"
+    },
+    {
       "name": "vectormagic-mcp-server",
       "displayName": "Vector Magic Bridge",
       "shortDescription": "Vectorize bitmaps into SVG, AI, EPS, PDF or DXF with your local Vector Magic",
@@ -395,5 +507,5 @@
       "releaseDate": "2026-10-14T05:34:44Z"
     }
   ],
-  "updatedAt": "2026-10-14T05:34:59.128Z"
+  "updatedAt": "2026-10-14T14:33:17.754Z"
 }

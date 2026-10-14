@@ -11,6 +11,9 @@
     { "repo": "jhonsu01/pdfcraft-mcp-server", "category": "Productivity", "brandColor": "#DC2626", "shortDescription": "Merge, split, OCR, sign and convert PDFs with your local PdfCraft" },
     { "repo": "jhonsu01/photocraft-mcp-server", "category": "Design", "brandColor": "#2563EB", "shortDescription": "Edit photos and create images with your local PhotoCraft" },
     { "repo": "jhonsu01/wordcraft-mcp-server", "category": "Productivity", "brandColor": "#2B579A", "shortDescription": "Write, edit, mail-merge and convert documents with your local WordCraft" },
+    { "repo": "jhonsu01/soundcraft-mcp-server", "category": "Audio", "brandColor": "#1BA6C9", "shortDescription": "Make songs, mix multitrack audio and process sound with your local SoundCraft" },
+    { "repo": "jhonsu01/deckcraft-mcp-server", "category": "Productivity", "brandColor": "#F26B1D", "shortDescription": "Create, edit and convert slide decks with your local DeckCraft" },
+    { "repo": "jhonsu01/gridcraft-mcp-server", "category": "Productivity", "brandColor": "#21A04F", "shortDescription": "Build, edit, analyze and convert spreadsheets with your local GridCraft" },
     { "repo": "jhonsu01/vectorcraft-mcp-server", "category": "Design", "brandColor": "#059669", "shortDescription": "Vectorize images and create vector art with your local VectorCraft" },
     { "repo": "jhonsu01/audacity-mcp-server", "category": "Audio", "brandColor": "#0000CC", "shortDescription": "Split, trim, convert, mix and add effects to audio with your local Audacity 4" },
     { "repo": "jhonsu01/VectorMagic-mcp-server", "category": "Design", "brandColor": "#1E88E5", "shortDescription": "Vectorize bitmaps into SVG, AI, EPS, PDF or DXF with your local Vector Magic" }
