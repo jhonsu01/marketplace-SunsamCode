@@ -1,0 +1,17 @@
+{
+  "name": "sunsam",
+  "displayName": "Sunsam Connectors",
+  "owner": { "name": "Jhon Supelano", "url": "https://github.com/jhonsu01" },
+  "homepage": "https://github.com/jhonsu01/marketplace-SunsamCode",
+  "connectors": [
+    { "repo": "jhonsu01/designcraft-mcp-server", "category": "Design", "brandColor": "#7B2FF7", "shortDescription": "Page layout, data merge and print-ready PDF with your local DesignCraft" },
+    { "repo": "jhonsu01/effectcraft-mcp-server", "category": "Design", "brandColor": "#7C3AED", "shortDescription": "Motion graphics, titles and effects rendered with your local EffectCraft" },
+    { "repo": "jhonsu01/filmcraft-mcp-server", "category": "Design", "brandColor": "#EA580C", "shortDescription": "Edit, trim, join and convert videos with your local FilmCraft" },
+    { "repo": "jhonsu01/lightcraft-mcp-server", "category": "Design", "brandColor": "#F59E0B", "shortDescription": "Develop photos and raw files with your local LightCraft" },
+    { "repo": "jhonsu01/pdfcraft-mcp-server", "category": "Productivity", "brandColor": "#DC2626", "shortDescription": "Merge, split, OCR, sign and convert PDFs with your local PdfCraft" },
+    { "repo": "jhonsu01/photocraft-mcp-server", "category": "Design", "brandColor": "#2563EB", "shortDescription": "Edit photos and create images with your local PhotoCraft" },
+    { "repo": "jhonsu01/vectorcraft-mcp-server", "category": "Design", "brandColor": "#059669", "shortDescription": "Vectorize images and create vector art with your local VectorCraft" },
+    { "repo": "jhonsu01/audacity-mcp-server", "category": "Audio", "brandColor": "#0000CC", "shortDescription": "Split, trim, convert, mix and add effects to audio with your local Audacity 4" },
+    { "repo": "jhonsu01/VectorMagic-mcp-server", "category": "Design", "brandColor": "#1E88E5", "shortDescription": "Vectorize bitmaps into SVG, AI, EPS, PDF or DXF with your local Vector Magic" }
+  ]
+}

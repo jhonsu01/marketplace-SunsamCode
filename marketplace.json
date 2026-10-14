@@ -1,0 +1,360 @@
+{
+  "$schema": "./marketplace.schema.json",
+  "schemaVersion": 1,
+  "name": "sunsam",
+  "displayName": "Sunsam Connectors",
+  "owner": {
+    "name": "Jhon Supelano",
+    "url": "https://github.com/jhonsu01"
+  },
+  "homepage": "https://github.com/jhonsu01/marketplace-SunsamCode",
+  "connectors": [
+    {
+      "name": "audacity-mcp-server",
+      "displayName": "Audacity Bridge",
+      "shortDescription": "Split, trim, convert, mix and add effects to audio with your local Audacity 4",
+      "description": "Split, trim, convert, clean (mouth clicks, clipping, noise), mix, join and apply effects to any audio with the audio engine of Audacity 4 on Windows, macOS and Linux, plus an in-app Audacity extension. Not affiliated with Audacity or Muse Group.",
+      "category": "Audio",
+      "brandColor": "#0000CC",
+      "version": "1.2.0",
+      "author": "Jhon Supelano",
+      "license": "GPL-3.0-only",
+      "repository": "https://github.com/jhonsu01/audacity-mcp-server",
+      "homepage": "https://github.com/jhonsu01/audacity-mcp-server",
+      "platforms": [
+        "win32",
+        "darwin",
+        "linux"
+      ],
+      "tools": [
+        "split_audio",
+        "convert_audio",
+        "trim_audio",
+        "apply_effects",
+        "mix_audio",
+        "concat_audio",
+        "get_audio_info",
+        "open_in_audacity",
+        "install_audacity_extension",
+        "get_audacity_status"
+      ],
+      "icon": "icons/audacity-mcp-server.png",
+      "mcpb": {
+        "url": "https://github.com/jhonsu01/audacity-mcp-server/releases/download/v1.2.0/audacity-mcp-server.mcpb",
+        "sha256": "c19ba2b5d042ae4cf240cc6515952cd73b50da9298fe72868505208c8e2142cb",
+        "size": 2552902
+      },
+      "releaseTag": "v1.2.0",
+      "releaseDate": "2026-10-08T00:12:33Z"
+    },
+    {
+      "name": "designcraft-mcp-server",
+      "displayName": "DesignCraft Bridge",
+      "shortDescription": "Page layout, data merge and print-ready PDF with your local DesignCraft",
+      "description": "Lay out flyers, posters, brochures, menus, cards, certificates and book pages, mail-merge CSV data, edit .designcraft and InDesign .idml documents and export print-ready PDF (PDF/X-4), PNG, IDML, EPUB and HTML, using the DesignCraft publishing app installed on Windows, macOS or Linux. Not affiliated with DesignCraft or Storytold.",
+      "category": "Design",
+      "brandColor": "#7B2FF7",
+      "version": "1.0.4",
+      "author": "Jhon Supelano",
+      "license": "Apache-2.0",
+      "repository": "https://github.com/jhonsu01/designcraft-mcp-server",
+      "homepage": "https://github.com/jhonsu01/designcraft-mcp-server",
+      "platforms": [
+        "win32",
+        "darwin",
+        "linux"
+      ],
+      "tools": [
+        "create_layout",
+        "data_merge",
+        "export_document",
+        "edit_document",
+        "get_document_info",
+        "render_pages",
+        "list_designcraft_catalog",
+        "run_designcraft_commands",
+        "open_in_designcraft",
+        "get_designcraft_status"
+      ],
+      "icon": "icons/designcraft-mcp-server.png",
+      "mcpb": {
+        "url": "https://github.com/jhonsu01/designcraft-mcp-server/releases/download/v1.0.4/designcraft-mcp-server.mcpb",
+        "sha256": "a2e51e5e97bd3dd70fe1d424a9aaf610691d1eb1c15ae0d2c2e529c033cbbeff",
+        "size": 282922
+      },
+      "releaseTag": "v1.0.4",
+      "releaseDate": "2026-10-13T23:35:48Z"
+    },
+    {
+      "name": "effectcraft-mcp-server",
+      "displayName": "EffectCraft Bridge",
+      "shortDescription": "Motion graphics, titles and effects rendered with your local EffectCraft",
+      "description": "Create motion graphics, animated titles and visual effects (text, shapes, media, keyframes, expressions, 306 effects, templates) and render MP4, ProRes, WebM, GIF, image sequences and Lottie, using the EffectCraft compositor installed on Windows, macOS or Linux. Not affiliated with EffectCraft or Storytold.",
+      "category": "Design",
+      "brandColor": "#7C3AED",
+      "version": "1.0.5",
+      "author": "Jhon Supelano",
+      "license": "Apache-2.0",
+      "repository": "https://github.com/jhonsu01/effectcraft-mcp-server",
+      "homepage": "https://github.com/jhonsu01/effectcraft-mcp-server",
+      "platforms": [
+        "win32",
+        "darwin",
+        "linux"
+      ],
+      "tools": [
+        "create_motion_graphic",
+        "apply_effects",
+        "use_template",
+        "render_project",
+        "get_project_info",
+        "render_frame",
+        "list_effectcraft_catalog",
+        "run_effectcraft_script",
+        "run_effectcraft_commands",
+        "open_in_effectcraft",
+        "get_effectcraft_status"
+      ],
+      "icon": "icons/effectcraft-mcp-server.png",
+      "mcpb": {
+        "url": "https://github.com/jhonsu01/effectcraft-mcp-server/releases/download/v1.0.5/effectcraft-mcp-server.mcpb",
+        "sha256": "27bd9ce3741eb0edfd16f03b0104c5c764a369340207fac5adc639d28ab9d041",
+        "size": 284575
+      },
+      "releaseTag": "v1.0.5",
+      "releaseDate": "2026-10-13T23:35:54Z"
+    },
+    {
+      "name": "filmcraft-mcp-server",
+      "displayName": "FilmCraft Bridge",
+      "shortDescription": "Edit, trim, join and convert videos with your local FilmCraft",
+      "description": "Split, trim, edit (effects, color looks, titles, speed, audio), join, convert and export video with the FilmCraft editor installed on Windows, macOS or Linux, and keep every edit editable. Not affiliated with FilmCraft or Storytold.",
+      "category": "Design",
+      "brandColor": "#EA580C",
+      "version": "1.1.4",
+      "author": "Jhon Supelano",
+      "license": "Apache-2.0",
+      "repository": "https://github.com/jhonsu01/filmcraft-mcp-server",
+      "homepage": "https://github.com/jhonsu01/filmcraft-mcp-server",
+      "platforms": [
+        "win32",
+        "darwin",
+        "linux"
+      ],
+      "tools": [
+        "split_video",
+        "edit_video",
+        "trim_video",
+        "concat_videos",
+        "convert_media",
+        "get_media_info",
+        "render_frame",
+        "list_catalog",
+        "run_commands",
+        "open_in_filmcraft",
+        "get_filmcraft_status"
+      ],
+      "icon": "icons/filmcraft-mcp-server.png",
+      "mcpb": {
+        "url": "https://github.com/jhonsu01/filmcraft-mcp-server/releases/download/v1.1.4/filmcraft-mcp-server.mcpb",
+        "sha256": "39b716b8fe870d50b2010f91c77d0af6bb54ea33b50bff42b105a9a47f30a5a5",
+        "size": 286195
+      },
+      "releaseTag": "v1.1.4",
+      "releaseDate": "2026-10-13T23:36:20Z"
+    },
+    {
+      "name": "lightcraft-mcp-server",
+      "displayName": "LightCraft Bridge",
+      "shortDescription": "Develop photos and raw files with your local LightCraft",
+      "description": "Develop photos and raw files (auto tone, white balance, 114 sliders, presets, profiles, masks, spot healing, crop), merge HDR and panoramas, cull by sharpness and export JPEG, TIFF, WebP, AVIF or DNG, using the LightCraft raw developer installed on Windows, macOS or Linux. Not affiliated with LightCraft or Storytold.",
+      "category": "Design",
+      "brandColor": "#F59E0B",
+      "version": "1.0.3",
+      "author": "Jhon Supelano",
+      "license": "Apache-2.0",
+      "repository": "https://github.com/jhonsu01/lightcraft-mcp-server",
+      "homepage": "https://github.com/jhonsu01/lightcraft-mcp-server",
+      "platforms": [
+        "win32",
+        "darwin",
+        "linux"
+      ],
+      "tools": [
+        "develop_photos",
+        "convert_photos",
+        "render_preview",
+        "get_photo_info",
+        "merge_photos",
+        "analyze_photos",
+        "list_lightcraft_catalog",
+        "run_lightcraft_commands",
+        "open_in_lightcraft",
+        "get_lightcraft_status"
+      ],
+      "icon": "icons/lightcraft-mcp-server.png",
+      "mcpb": {
+        "url": "https://github.com/jhonsu01/lightcraft-mcp-server/releases/download/v1.0.3/lightcraft-mcp-server.mcpb",
+        "sha256": "e05f7cdc62b670cd72fac1e6227ba74d9eacb6d1e8bdee779d0b8185be503722",
+        "size": 308478
+      },
+      "releaseTag": "v1.0.3",
+      "releaseDate": "2026-10-13T23:35:59Z"
+    },
+    {
+      "name": "pdfcraft-mcp-server",
+      "displayName": "PdfCraft Bridge",
+      "shortDescription": "Merge, split, OCR, sign and convert PDFs with your local PdfCraft",
+      "description": "Read, split, merge, organize, watermark, protect, redact, fill, sign, convert, compress and OCR PDFs with the PdfCraft editor installed on Windows, macOS or Linux. Not affiliated with PdfCraft or Storytold.",
+      "category": "Productivity",
+      "brandColor": "#DC2626",
+      "version": "1.0.3",
+      "author": "Jhon Supelano",
+      "license": "Apache-2.0",
+      "repository": "https://github.com/jhonsu01/pdfcraft-mcp-server",
+      "homepage": "https://github.com/jhonsu01/pdfcraft-mcp-server",
+      "platforms": [
+        "win32",
+        "darwin",
+        "linux"
+      ],
+      "tools": [
+        "get_pdf_info",
+        "extract_text",
+        "render_pages",
+        "split_pdf",
+        "merge_pdfs",
+        "extract_pages",
+        "edit_pages",
+        "create_pdf",
+        "add_content",
+        "protect_pdf",
+        "redact_pdf",
+        "fill_form",
+        "sign_pdf",
+        "convert_pdf",
+        "optimize_pdf",
+        "ocr_pdf",
+        "compare_pdfs",
+        "list_pdf_tools",
+        "run_pdf_tools",
+        "open_in_pdfcraft",
+        "get_pdfcraft_status"
+      ],
+      "icon": "icons/pdfcraft-mcp-server.png",
+      "mcpb": {
+        "url": "https://github.com/jhonsu01/pdfcraft-mcp-server/releases/download/v1.0.3/pdfcraft-mcp-server.mcpb",
+        "sha256": "3caddf6bc278948adf5f8e01c2c94ab34ab38df2fef0ab1e7cd894d49cbb6d04",
+        "size": 281150
+      },
+      "releaseTag": "v1.0.3",
+      "releaseDate": "2026-10-13T23:36:14Z"
+    },
+    {
+      "name": "photocraft-mcp-server",
+      "displayName": "PhotoCraft Bridge",
+      "shortDescription": "Edit photos and create images with your local PhotoCraft",
+      "description": "Edit photos (resize, crop, adjustments, Camera Raw, filters, remove background, text, shapes, layer styles), create designs and convert between PSD, TIFF, PNG, JPEG, WebP, EXR and more, using the PhotoCraft editor installed on Windows, macOS or Linux. Not affiliated with PhotoCraft or Storytold.",
+      "category": "Design",
+      "brandColor": "#2563EB",
+      "version": "1.0.3",
+      "author": "Jhon Supelano",
+      "license": "Apache-2.0",
+      "repository": "https://github.com/jhonsu01/photocraft-mcp-server",
+      "homepage": "https://github.com/jhonsu01/photocraft-mcp-server",
+      "platforms": [
+        "win32",
+        "darwin",
+        "linux"
+      ],
+      "tools": [
+        "get_image_info",
+        "convert_image",
+        "edit_image",
+        "create_image",
+        "remove_background",
+        "render_preview",
+        "list_photo_catalog",
+        "run_photo_commands",
+        "open_in_photocraft",
+        "get_photocraft_status"
+      ],
+      "icon": "icons/photocraft-mcp-server.png",
+      "mcpb": {
+        "url": "https://github.com/jhonsu01/photocraft-mcp-server/releases/download/v1.0.3/photocraft-mcp-server.mcpb",
+        "sha256": "2a6524ec4465ca8e1440e95733ce450477b8965d4f5a2cca5e62eb1cce89d054",
+        "size": 284890
+      },
+      "releaseTag": "v1.0.3",
+      "releaseDate": "2026-10-13T23:36:04Z"
+    },
+    {
+      "name": "vectormagic-mcp-server",
+      "displayName": "Vector Magic Bridge",
+      "shortDescription": "Vectorize bitmaps into SVG, AI, EPS, PDF or DXF with your local Vector Magic",
+      "description": "Vectorize any bitmap into editable SVG, AI, EPS, PDF, DXF or EMF with Vector Magic Desktop Edition on Windows. Not affiliated with Vector Magic, Inc.",
+      "category": "Design",
+      "brandColor": "#1E88E5",
+      "version": "1.0.1",
+      "author": "Jhon Supelano",
+      "license": "MIT",
+      "repository": "https://github.com/jhonsu01/VectorMagic-mcp-server",
+      "homepage": "https://github.com/jhonsu01/VectorMagic-mcp-server",
+      "platforms": [
+        "win32"
+      ],
+      "tools": [
+        "vectorize_image",
+        "vectorize_batch",
+        "get_vector_magic_status"
+      ],
+      "icon": "icons/vectormagic-mcp-server.png",
+      "mcpb": {
+        "url": "https://github.com/jhonsu01/VectorMagic-mcp-server/releases/download/v1.0.1/vectormagic-mcp-server.mcpb",
+        "sha256": "d0be5c0315b69d912b918412f75f825f2433dddfcec68e060b5cce11f000e7bb",
+        "size": 274597
+      },
+      "releaseTag": "v1.0.1",
+      "releaseDate": "2026-10-05T19:09:19Z"
+    },
+    {
+      "name": "vectorcraft-mcp-server",
+      "displayName": "VectorCraft Bridge",
+      "shortDescription": "Vectorize images and create vector art with your local VectorCraft",
+      "description": "Vectorize images, convert between SVG, PDF, AI, EPS, DXF, PNG and more, create and recolor vector designs with shapes, text, charts and effects, using the VectorCraft editor installed on Windows, macOS or Linux. Not affiliated with VectorCraft or Storytold.",
+      "category": "Design",
+      "brandColor": "#059669",
+      "version": "1.0.5",
+      "author": "Jhon Supelano",
+      "license": "Apache-2.0",
+      "repository": "https://github.com/jhonsu01/vectorcraft-mcp-server",
+      "homepage": "https://github.com/jhonsu01/vectorcraft-mcp-server",
+      "platforms": [
+        "win32",
+        "darwin",
+        "linux"
+      ],
+      "tools": [
+        "get_vector_info",
+        "convert_vector",
+        "vectorize_image",
+        "create_design",
+        "edit_vector",
+        "render_preview",
+        "list_vector_catalog",
+        "run_vector_commands",
+        "open_in_vectorcraft",
+        "get_vectorcraft_status"
+      ],
+      "icon": "icons/vectorcraft-mcp-server.png",
+      "mcpb": {
+        "url": "https://github.com/jhonsu01/vectorcraft-mcp-server/releases/download/v1.0.5/vectorcraft-mcp-server.mcpb",
+        "sha256": "06bba9c97b1e386cf8f5133b903a402920732ef4abc0ac746889c07ed150ba6b",
+        "size": 294062
+      },
+      "releaseTag": "v1.0.5",
+      "releaseDate": "2026-10-13T23:36:09Z"
+    }
+  ],
+  "updatedAt": "2026-10-14T01:26:34.367Z"
+}

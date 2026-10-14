@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Sunsam Code marketplace",
+  "type": "object",
+  "required": ["schemaVersion", "name", "connectors"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "name": { "type": "string" },
+    "displayName": { "type": "string" },
+    "updatedAt": { "type": "string" },
+    "connectors": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "displayName", "version", "mcpb"],
+        "properties": {
+          "name": { "type": "string", "description": "manifest.json name of the .mcpb" },
+          "displayName": { "type": "string" },
+          "shortDescription": { "type": "string" },
+          "description": { "type": "string" },
+          "category": { "type": "string" },
+          "brandColor": { "type": "string" },
+          "version": { "type": "string" },
+          "icon": { "type": "string", "description": "Path relative to marketplace.json, or an https URL" },
+          "platforms": { "type": "array", "items": { "type": "string" } },
+          "tools": { "type": "array", "items": { "type": "string" } },
+          "repository": { "type": "string" },
+          "mcpb": {
+            "type": "object",
+            "required": ["url", "sha256"],
+            "properties": {
+              "url": { "type": "string", "description": "https URL of the .mcpb / .dxt" },
+              "sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+              "size": { "type": "integer" }
+            }
+          }
+        }
+      }
+    }
+  }
+}
