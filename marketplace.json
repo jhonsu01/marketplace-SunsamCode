@@ -362,7 +362,7 @@
       "description": "Write, edit (find/replace, comments, tracked changes), mail-merge, convert and preview documents with the WordCraft word processor installed on Windows, macOS or Linux. Not affiliated with WordCraft or Storytold.",
       "category": "Productivity",
       "brandColor": "#2B579A",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": "Jhon Supelano",
       "license": "Apache-2.0",
       "repository": "https://github.com/jhonsu01/wordcraft-mcp-server",
@@ -387,13 +387,13 @@
       ],
       "icon": "icons/wordcraft-mcp-server.png",
       "mcpb": {
-        "url": "https://github.com/jhonsu01/wordcraft-mcp-server/releases/download/v1.0.0/wordcraft-mcp-server.mcpb",
-        "sha256": "b892018acdda63ebd4041a1bd48e1327d5d1a7f498ae08da92d7f8e989f1bf09",
-        "size": 272442
+        "url": "https://github.com/jhonsu01/wordcraft-mcp-server/releases/download/v1.0.1/wordcraft-mcp-server.mcpb",
+        "sha256": "caf609f6cd8d85ee8d109449ca4d01dce71a8da8b774e1e481d5272a759d0623",
+        "size": 272703
       },
-      "releaseTag": "v1.0.0",
-      "releaseDate": "2026-10-14T04:34:01Z"
+      "releaseTag": "v1.0.1",
+      "releaseDate": "2026-10-14T05:34:44Z"
     }
   ],
-  "updatedAt": "2026-10-14T04:34:58.385Z"
+  "updatedAt": "2026-10-14T05:34:59.128Z"
 }
