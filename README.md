@@ -1,60 +1,62 @@
-# Marketplace de Sunsam Code
+<h1 align="center">Sunsam Code marketplace</h1>
 
-**Español** · [English](README.en.md)
+<p align="center">
+  <b>English</b> · <a href="README.es.md">Español</a> · <a href="README.pt-BR.md">Português</a> · <a href="README.fr.md">Français</a> · <a href="README.de.md">Deutsch</a> · <a href="README.ru.md">Русский</a> · <a href="README.zh-CN.md">简体中文</a> · <a href="README.ja.md">日本語</a> · <a href="README.ko.md">한국어</a>
+</p>
 
-Conectores MCP listos para instalar en [Sunsam Code](https://github.com/jhonsu01/SunsamCode) con un clic,
-con icono, descripción y versión. El marketplace se **sincroniza solo** con el último release de cada conector.
+<p align="center">MCP connectors ready to install in <a href="https://github.com/jhonsu01/SunsamCode">Sunsam Code</a> with one click, with icon, description and version. The marketplace <b>syncs itself</b> with the latest release of every connector.</p>
 
-## Usarlo en Sunsam Code
+---
 
-Viene configurado por defecto. Para añadirlo a mano (o añadir otro marketplace):
+## Using it in Sunsam Code
 
-1. **Ajustes → Servidores MCP → Marketplaces → Añadir marketplace**.
-2. Escribe `jhonsu01/marketplace-SunsamCode` (o la URL de cualquier `marketplace.json`).
-3. Pulsa **Instalar** en un conector. Cuando sale una versión nueva aparece **Actualizar**, y tu
-   configuración se conserva.
+It is configured by default. To add it by hand (or add another marketplace):
 
-## Conectores
+1. **Settings → MCP servers → Marketplaces → Add marketplace**.
+2. Type `jhonsu01/marketplace-SunsamCode` (or the URL of any `marketplace.json`).
+3. Click **Install** on a connector. When a new version is out, **Update** appears and your settings are kept.
 
-| Conector                                                                    | Categoría     |
-| --------------------------------------------------------------------------- | ------------- |
-| [Audacity Bridge](https://github.com/jhonsu01/audacity-mcp-server)          | Audio         |
-| [DesignCraft Bridge](https://github.com/jhonsu01/designcraft-mcp-server)    | Design        |
-| [EffectCraft Bridge](https://github.com/jhonsu01/effectcraft-mcp-server)    | Design        |
-| [FilmCraft Bridge](https://github.com/jhonsu01/filmcraft-mcp-server)        | Design        |
-| [LightCraft Bridge](https://github.com/jhonsu01/lightcraft-mcp-server)      | Design        |
-| [PdfCraft Bridge](https://github.com/jhonsu01/pdfcraft-mcp-server)          | Productivity  |
-| [PhotoCraft Bridge](https://github.com/jhonsu01/photocraft-mcp-server)      | Design        |
-| [Vector Magic Bridge](https://github.com/jhonsu01/VectorMagic-mcp-server)   | Design        |
-| [VectorCraft Bridge](https://github.com/jhonsu01/vectorcraft-mcp-server)    | Design        |
+## Connectors
 
-La versión vigente de cada uno está siempre en [`marketplace.json`](marketplace.json).
+| Connector | What it does | Category | Package |
+| --- | --- | --- | --- |
+| <img src="icons/audacity-mcp-server.png" width="20" alt=""> [Audacity Bridge](https://github.com/jhonsu01/audacity-mcp-server) | Audio: split into pieces, trim, convert, effects, mix and join; WAV, MP3, FLAC, OGG | Audio | [`audacity-mcp-server.mcpb`](https://github.com/jhonsu01/audacity-mcp-server/releases/latest/download/audacity-mcp-server.mcpb) |
+| <img src="icons/designcraft-mcp-server.png" width="20" alt=""> [DesignCraft Bridge](https://github.com/jhonsu01/designcraft-mcp-server) | Page layout, data merge, InDesign IDML, print-ready PDF/X, PNG, EPUB and HTML | Design | [`designcraft-mcp-server.mcpb`](https://github.com/jhonsu01/designcraft-mcp-server/releases/latest/download/designcraft-mcp-server.mcpb) |
+| <img src="icons/effectcraft-mcp-server.png" width="20" alt=""> [EffectCraft Bridge](https://github.com/jhonsu01/effectcraft-mcp-server) | Motion graphics, animated titles, effects on videos, templates; MP4, ProRes, WebM, GIF, Lottie | Design | [`effectcraft-mcp-server.mcpb`](https://github.com/jhonsu01/effectcraft-mcp-server/releases/latest/download/effectcraft-mcp-server.mcpb) |
+| <img src="icons/filmcraft-mcp-server.png" width="20" alt=""> [FilmCraft Bridge](https://github.com/jhonsu01/filmcraft-mcp-server) | Video editing: split, trim, effects, color looks, titles, speed, join with transitions; H.264, ProRes, GIF, OTIO | Design | [`filmcraft-mcp-server.mcpb`](https://github.com/jhonsu01/filmcraft-mcp-server/releases/latest/download/filmcraft-mcp-server.mcpb) |
+| <img src="icons/lightcraft-mcp-server.png" width="20" alt=""> [LightCraft Bridge](https://github.com/jhonsu01/lightcraft-mcp-server) | Raw development: auto tone, 114 sliders, presets, masks, HDR and panoramas; JPEG, TIFF, WebP, AVIF, DNG | Design | [`lightcraft-mcp-server.mcpb`](https://github.com/jhonsu01/lightcraft-mcp-server/releases/latest/download/lightcraft-mcp-server.mcpb) |
+| <img src="icons/pdfcraft-mcp-server.png" width="20" alt=""> [PdfCraft Bridge](https://github.com/jhonsu01/pdfcraft-mcp-server) | PDF work: merge, split, pages, OCR, forms, signatures, redaction, passwords; to Word, HTML, images, PDF/A | Productivity | [`pdfcraft-mcp-server.mcpb`](https://github.com/jhonsu01/pdfcraft-mcp-server/releases/latest/download/pdfcraft-mcp-server.mcpb) |
+| <img src="icons/photocraft-mcp-server.png" width="20" alt=""> [PhotoCraft Bridge](https://github.com/jhonsu01/photocraft-mcp-server) | Photo editing: resize, crop, adjustments, 122 filters, background removal, text and designs; PSD, PNG, JPEG, WebP | Design | [`photocraft-mcp-server.mcpb`](https://github.com/jhonsu01/photocraft-mcp-server/releases/latest/download/photocraft-mcp-server.mcpb) |
+| <img src="icons/vectormagic-mcp-server.png" width="20" alt=""> [Vector Magic Bridge](https://github.com/jhonsu01/VectorMagic-mcp-server) | Vectorize bitmaps, one image or whole folders; SVG, AI, EPS, PDF, DXF (Windows) | Design | [`vectormagic-mcp-server.mcpb`](https://github.com/jhonsu01/VectorMagic-mcp-server/releases/latest/download/vectormagic-mcp-server.mcpb) |
+| <img src="icons/vectorcraft-mcp-server.png" width="20" alt=""> [VectorCraft Bridge](https://github.com/jhonsu01/vectorcraft-mcp-server) | Vector art: image trace, designs from shapes, text and charts, recolor; SVG, PDF, AI, EPS, DXF, PNG | Design | [`vectorcraft-mcp-server.mcpb`](https://github.com/jhonsu01/vectorcraft-mcp-server/releases/latest/download/vectorcraft-mcp-server.mcpb) |
+| <img src="icons/wordcraft-mcp-server.png" width="20" alt=""> [WordCraft Bridge](https://github.com/jhonsu01/wordcraft-mcp-server) | Word processing: documents from headings, lists, tables and images, find / replace, comments, tracked changes, mail merge; DOCX, PDF, ODT, RTF, Markdown, LaTeX | Productivity | [`wordcraft-mcp-server.mcpb`](https://github.com/jhonsu01/wordcraft-mcp-server/releases/latest/download/wordcraft-mcp-server.mcpb) |
 
-## Cómo funciona
+The current version of each one is always in [`marketplace.json`](marketplace.json).
 
-- [`sources.json`](sources.json) lista los repositorios de conectores (más categoría, color y descripción corta).
-- [`scripts/sync.mjs`](scripts/sync.mjs) lee el último release de cada repo, descarga su `.mcpb`, calcula su
-  **SHA-256** y extrae de dentro del paquete el `manifest.json` (versión, nombre, herramientas) y el **icono**.
-  Escribe [`marketplace.json`](marketplace.json) e [`icons/`](icons). No usa dependencias.
-- El [workflow](.github/workflows/sync.yml) lo ejecuta cada 6 horas, a mano o cuando un conector avisa de un
-  release nuevo:
+## Other apps
 
-  ```bash
-  gh api repos/jhonsu01/marketplace-SunsamCode/dispatches -f event_type=connector-release
-  ```
+The same `.mcpb` packages install in **Claude Desktop** (double-click them). For **Codex** and **DeepSeek Harness**, the Craft connectors are in the [Craft Bridges marketplace](https://github.com/jhonsu01/craft-marketplace).
 
-- Sunsam Code descarga el `.mcpb` desde el release original y **comprueba el SHA-256** antes de instalarlo.
+## How it works
 
-### Añadir un conector
+- [`sources.json`](sources.json) lists the connector repositories (plus category, colour and short description).
+- [`scripts/sync.mjs`](scripts/sync.mjs) reads the latest release of each repo, downloads its `.mcpb`, computes its **SHA-256** and takes the `manifest.json` (version, name, tools) and the **icon** from inside the package. It writes [`marketplace.json`](marketplace.json) and [`icons/`](icons), with no dependencies.
+- The [workflow](.github/workflows/sync.yml) runs it every 6 hours, by hand or when a connector announces a new release:
 
-Añade su repositorio a `sources.json` (debe publicar un `.mcpb` en sus GitHub Releases) y ejecuta
-`node scripts/sync.mjs`, o deja que lo haga el workflow.
+```bash
+gh api repos/jhonsu01/marketplace-SunsamCode/dispatches -f event_type=connector-release
+```
 
-### Formato
+- Sunsam Code downloads the `.mcpb` from the original release and **checks the SHA-256** before installing it.
 
-Cualquier `marketplace.json` que siga [`marketplace.schema.json`](marketplace.schema.json) sirve como
-marketplace para Sunsam Code: así puedes publicar el tuyo.
+### Adding a connector
 
-## Licencia
+Add its repository to `sources.json` (it must publish a `.mcpb` in its GitHub Releases) and run `node scripts/sync.mjs`, or let the workflow do it.
 
-Apache-2.0. Cada conector conserva su propia licencia.
+### Format
+
+Any `marketplace.json` that follows [`marketplace.schema.json`](marketplace.schema.json) works as a marketplace for Sunsam Code, so you can publish your own.
+
+## License
+
+Apache-2.0. Each connector keeps its own license. The apps belong to their authors; these connectors are not affiliated with or endorsed by them.

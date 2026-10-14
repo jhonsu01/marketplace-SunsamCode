@@ -354,7 +354,46 @@
       },
       "releaseTag": "v1.0.5",
       "releaseDate": "2026-10-13T23:36:09Z"
+    },
+    {
+      "name": "wordcraft-mcp-server",
+      "displayName": "WordCraft Bridge",
+      "shortDescription": "Write, edit, mail-merge and convert documents with your local WordCraft",
+      "description": "Write, edit (find/replace, comments, tracked changes), mail-merge, convert and preview documents with the WordCraft word processor installed on Windows, macOS or Linux. Not affiliated with WordCraft or Storytold.",
+      "category": "Productivity",
+      "brandColor": "#2B579A",
+      "version": "1.0.0",
+      "author": "Jhon Supelano",
+      "license": "Apache-2.0",
+      "repository": "https://github.com/jhonsu01/wordcraft-mcp-server",
+      "homepage": "https://github.com/jhonsu01/wordcraft-mcp-server",
+      "platforms": [
+        "win32",
+        "darwin",
+        "linux"
+      ],
+      "tools": [
+        "create_document",
+        "edit_document",
+        "mail_merge",
+        "convert_document",
+        "get_document_info",
+        "extract_text",
+        "render_pages",
+        "list_wordcraft_catalog",
+        "run_wordcraft_commands",
+        "open_in_wordcraft",
+        "get_wordcraft_status"
+      ],
+      "icon": "icons/wordcraft-mcp-server.png",
+      "mcpb": {
+        "url": "https://github.com/jhonsu01/wordcraft-mcp-server/releases/download/v1.0.0/wordcraft-mcp-server.mcpb",
+        "sha256": "b892018acdda63ebd4041a1bd48e1327d5d1a7f498ae08da92d7f8e989f1bf09",
+        "size": 272442
+      },
+      "releaseTag": "v1.0.0",
+      "releaseDate": "2026-10-14T04:34:01Z"
     }
   ],
-  "updatedAt": "2026-10-14T01:26:34.367Z"
+  "updatedAt": "2026-10-14T04:34:58.385Z"
 }
